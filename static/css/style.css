@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    margin-top: 55px;
+    margin-top: 52px;
     font-family: sans-serif;
 }
 
@@ -35,7 +35,6 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding:20px
     
     background-size: cover; 
     background-position: center center; 
@@ -68,4 +67,17 @@ section h3 {
 header a {
     text-decoration: none;
     color: black;
+}
+
+#home {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('/static/images/bg1.jpg');
+}
+#profile {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('/static/images/bg2.jpeg');
+}
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('/static/images/bg3.png');
+}
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('/static/images/bg4.jpeg');
 }
